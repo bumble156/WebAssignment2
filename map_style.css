@@ -1,0 +1,43 @@
+/* General CSS */
+
+p {
+	color: black;
+	font-size: small;
+	font-family: 'Lora', serif;
+}
+
+body {
+	position: relative;
+	background-color: LightSteelBlue;
+	margin:0;
+    padding:0;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+/* Page element CSS */
+
+#mapid{
+	position: absolute;
+	margin: 0px 10px 0px 10px;
+	width: 45%;
+	height: 500px;
+}
+
+#blurb{
+	width: 45%;
+	margin: 75px 10px 0px 10px;
+	padding: 75px 15px 75px 15px;
+	background: white;
+	border-style: outset;
+	float: right;
+}
+
+#copyright {
+	position: fixed;
+	bottom: 0;
+	left: 25px;
+}
