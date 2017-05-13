@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UK Port Index</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script language="javascript" type="text/javascript" src="assignmentScript.js"></script>
+	<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<link rel="stylesheet" media="all" href="map_style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather" rel="stylesheet">
+</head>
+<body onload = "fetchData()">
+
+<h1 id="heading">UK Port Index</h1>
+
+<!-- Section containing the Leaflet map -->
+<div id="mapid"></div>
+
+<!-- Section containing the explanatory text -->
+<div id="blurb">
+	<p>The World Port Index (Pub 150) contains the location and physical characteristics of, and the facilities and services offered by major ports and terminals world-wide (approximately 3700 entries), in a tabular format. Entries are organized geographically, in accordance with the diagrams located in the front of the publication.</p>
+	<p>This map shows the location and size of every port within the UK & Channel Islands.</p>
+	<p>Port size is based on several factors such as area, facilities and wharf space.</p>
+	<p><a href="https://msi.nga.mil/MSISiteContent/StaticFiles/NAV_PUBS/WPI/Pub150bk.pdf">The full port index can be downloaded here in PDF format</a></p>
+</div>
+
+<!-- Section containing the copyright information -->
+<div id="copyright">
+	<p>31/03/2017. Author: Charles Lonsdale. Property of Leeds University.</p>
+	<p>Data source: Maritime Safety Information 2017. World Port Index. <i>National Geospatial-Intelligence Agency</i>. [Online]. [Accessed 03 April 2017]. Available from: <a href="http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015">http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015</a></p>
+</div>
+
+</body>
+</html>
